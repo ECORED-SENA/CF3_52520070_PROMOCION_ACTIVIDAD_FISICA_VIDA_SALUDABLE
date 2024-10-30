@@ -2,19 +2,191 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    left: 10%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: giroYZoom 3s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    bottom: 20%
+    left: 5%
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 15%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+@keyframes latido
+  0%, 100%
+    transform: scale(1)
+  50%
+    transform: scale(1.1)
+
+.banner-principal__row .banner-principal__img
+  width: 460px
+  @media screen and ( max-width: $bp-max-lg )
+    width: 400px
+
+.banner-principal .tarjeta
+  @media screen and ( max-width: $bp-min-md )
+    background-position: -80px bottom
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.banner-interno__titulo__icono i
+  color: #fff !important
+
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.brounded
+  border-radius: 15px
+
+
+.bg-color
+  &-1
+    background-color: #FBEEAB !important
+  &-2
+    background-color: #FFF1F1 !important
+    &--fondo
+      background-color: #FFF1F1 !important
+      @media screen and (max-width: $bp-max-sm)
+        background-image: url("../assets/curso/intro/4.png") !important
+        background-repeat: no-repeat
+        background-position: right bottom
+  &-3
+    background-color: #EAF7FD !important
+  &-4
+    background-color: #D5EFFB !important
+  &-5
+    background-color: #FEFAE9 !important
+  &-6
+    background-color: #FDF6D4 !important
+  &-7
+    background-color: #FEE3E4 !important
+    &--fondo
+      background-image: url("../assets/curso/bullets/bg-icon-2.png") !important
+      background-repeat: no-repeat
+      background-position: right bottom
+  &--fondo
+    background-image: url("../assets/curso/bullets/bg-icon.png") !important
+    background-repeat: no-repeat
+    background-position: right bottom
+  &-sintesis
+    background-color: #FEF7F7
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg/bg1.png") !important
+    background-position: bottom
+  &-2
+    background-image: url("../assets/curso/bg/bg2.png") !important
+    background-position: bottom
+  &-slide
+    background-image: url("../assets/curso/bg/bg-slider.png") !important
+    background-position: bottom
+
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  background-image: url(../assets/curso/bullets/arrow-white.svg)
+  color: white
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: rgba($color-acento-contenido, 0.35)
+  border-color: rgba($color-acento-contenido, 0.35)
+
+.slyder-a__bullets__item--active
+  background-color: $color-acento-contenido !important
+
+
+// Slider Bullet Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-a__bullets__item
+    margin: 0 3px
+
+// Timeline Styles
+.linea-tiempo-c__header__item__year
+ white-space: nowrap
+ overflow: hidden
+ text-overflow: ellipsis
+ width: 90%
+ @media screen and (max-width: $bp-max-xl)
+   max-width: 70%
+
+// Estilos para botones de navegación y control
+.linea-tiempo-c__header__btn,
+.linea-tiempo-c__header__btn--left,
+.linea-tiempo-c__header__btn--right,
+.pasos-b__header__btn--left,
+.pasos-b__header__btn--right
+ background: $color-acento-botones
+ border: 0
+ color: #fff
+
+.linea-tiempo-c__header
+  margin-bottom: 4rem !important
+  @media screen and (max-width: $bp-max-sm)
+    margin-bottom: 1.5rem !important
+
+
+// Variables
+$custom-card-border-radius: 10px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFFFFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 249px
+
+// Estilos
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: #FFFFFF !important                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+  transition: transform 0.3s ease /* Duración y suavidad del efecto */
+  cursor: pointer
+  &:hover
+    transform: scale(1.05)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.tabs-a__tab
+  background-color: $color-acento-contenido
+  &:hover
+    color: #fff !important
+
+.tabs-a__content-item--active
+  height: 100% !important                 
+
+.tabs-a__tab.tabs-a__tab__selected
+  .tabs-a__tab__text
+    color: #fff !important
+
+
 
