@@ -4,96 +4,119 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 Teoría de la autoeficacia 
+        span 5
+      h1 Modelo ecológico 
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-auto
         figure
-          img(src="@/assets/curso/tema3/1.svg", style="max-width:100%", alt="").mx-auto
+          img(src="@/assets/curso/tema5/1.svg", style="max-width:100%", alt="").mx-auto
       .col-lg
         p.mb-0(data-aos="fade-left")
-          | La teoría de la autoeficacia sostiene que la seguridad en la propia capacidad para llevar a cabo una conducta está directamente relacionada con el éxito en su ejecución. Las creencias en las propias habilidades influyen en cómo las personas piensan, sienten, se motivan y actúan.
+          | El desarrollo humano se plantea desde una perspectiva ecológica, donde el comportamiento humano es visto como un fenómeno influido por el entorno. Este modelo comprende el ambiente como un conjunto de niveles interconectados y organizados en serie, en los que cada nivel depende de los otros. Estos niveles se clasifican como:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema5/2.png", style="max-width:100%", alt="").mx-auto
+      .col-lg-3
+        .bg-color-8.mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema5/3.svg", style="max-width:100%", alt="").mx-auto
+            .col-lg
+              p.mb-0(data-aos="fade-left") #[strong Microsistema]
+
+        .bg-color-8
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema5/5.svg", style="max-width:100%", alt="").mx-auto
+            .col-lg
+              p.mb-0(data-aos="fade-left") #[strong Exosistema]
+      .col-lg-3
+        .bg-color-8.mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema5/4.svg", style="max-width:100%", alt="").mx-auto
+            .col-lg
+              p.mb-0(data-aos="fade-left") #[strong Mesosistema]
+
+        .bg-color-8
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema5/6.svg", style="max-width:100%", alt="").mx-auto
+            .col-lg
+              p.mb-0(data-aos="fade-left") #[strong Macrosistema]
+
+    p.mb-5(data-aos="fade-left") La formación de un sistema depende de las interconexiones sociales entre los diferentes niveles. Todos están interrelacionados y dependen entre sí, lo que significa que el desarrollo humano está influido por la interacción conjunta de los distintos contextos y la comunicación entre ellos.
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 2.
-          span  Fuentes de la creencia en la autoeficacia
+          h5 Figura 3.
+          span  Modelo ecológico 
         
         .bg-color-sintesis.brounded
           .p-md-5.p-4
             figure
-              img(src="@/assets/curso/figuras/2.svg", style="max-width:100%", alt="El diagrama presenta las fuentes de creencia de la autoeficacia, como la experiencia previa y la evaluación emocional. Esto lleva a dos opciones: iniciar un programa de ejercicio, que fomenta la actividad y el control, resultando en éxito, o evitar el ejercicio por pereza, lo que conduce a la pasividad y, finalmente, al fracaso. ").mx-auto.d-none.d-md-block
+              img(src="@/assets/curso/figuras/3.svg", style="max-width:100%", alt="El diagrama presenta  el modelo ecológico, con cuatro niveles: microsistema (relaciones cercanas como familia), mesosistema (comunidad como escuela y vecindario), exosistema (entornos externos como medios de comunicación) y macrosistema (cultura y normas sociales). Cada nivel influye en el desarrollo del individuo.").mx-auto.d-none.d-md-block
 
-              img(src="@/assets/curso/figuras/2b.svg", style="max-width:100%", alt="El diagrama presenta las fuentes de creencia de la autoeficacia, como la experiencia previa y la evaluación emocional. Esto lleva a dos opciones: iniciar un programa de ejercicio, que fomenta la actividad y el control, resultando en éxito, o evitar el ejercicio por pereza, lo que conduce a la pasividad y, finalmente, al fracaso. ").mx-auto.d-md-none
-
-
-    p.mb-5(data-aos="fade-left")
-      | Adoptar una actitud activa ayuda a mejorar la situación, establecer objetivos y mejorar la condición física. Por otro lado, la pasividad conduce a la inacción y a buscar excusas, como la falta de tiempo.
+              img(src="@/assets/curso/figuras/3b.svg", style="max-width:100%", alt="El diagrama presenta  el modelo ecológico, con cuatro niveles: microsistema (relaciones cercanas como familia), mesosistema (comunidad como escuela y vecindario), exosistema (entornos externos como medios de comunicación) y macrosistema (cultura y normas sociales). Cada nivel influye en el desarrollo del individuo.").mx-auto.d-md-none
 
 
-    .row.justify-content-center.align-items-start.mb-5
-      .col-lg-3
-        figure
-          img(src="@/assets/curso/tema3/2.png", style="max-width:100%", alt="").mx-auto
-      .col-lg-6
-        .bg-color-4.p-4.mb-4
-          p.mb-0(data-aos="fade-left")
-            | La autoeficacia se refiere a las creencias personales sobre la capacidad de afrontar las situaciones cotidianas, donde se actúa en función de esas creencias. Al adoptar la teoría de la autoeficacia, el individuo asume un rol de autorreferencia y se activa un mecanismo común mediante el cual las personas demuestran control sobre sus #[strong expectativas, motivaciones y comportamientos]. 
+    .titulo-tres.mb-4(data-aos="flip-up").mb-4
+      h4 Modelo ecológico (PPCT)
 
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-auto
-            figure
-              img(src="@/assets/curso/tema3/3.svg", style="max-width:100%", alt="").mx-auto
-          .col-lg
-            p.mb-0(data-aos="fade-left") Es fundamental que los individuos sientan que tienen #[strong las capacidades físicas, mentales y personales] para realizar un cambio, lo cual conduce al éxito. Por el contrario, si piensan que no cumplen con los requisitos para efectuar ese cambio, experimentan #[strong frustración y descartan la posibilidad de actuar], lo que suele resultar en el fracaso.
-      .col-lg-3
-        figure
-          img(src="@/assets/curso/tema3/4.png", style="max-width:100%", alt="").mx-auto
-
-    p.mb-5(data-aos="fade-left")
-      | Cuando las personas inician la acción para cambiar y empiezan a percibir resultados positivos, su autoeficacia aumenta, ya que el reto es consigo mismas. Esto les permite lograr éxitos que no pensaban que podían alcanzar, lo que las motiva a asumir retos más grandes y nuevos en su vida personal.
+    p.mb-5(data-aos="fade-left") El modelo ecológico incluye tanto las experiencias objetivas como subjetivas del individuo dentro de su entorno. A lo largo de su vida, las personas enfrentan diversos procesos complejos, y el desarrollo se entiende como una interacción constante entre las características innatas y su ambiente.
+            
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg-color-7.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema5/7.svg', alt='', style="max-width: 90px").mx-auto.mb-4
+          .bg-color-white.d-inline-block.p-2.mb-3
+            h5.text-center.mb-0 #[strong Proceso]
+          p.text-center Las interacciones que el individuo tiene con su entorno.
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg-color-7.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema5/8.svg', alt='', style="max-width: 90px").mx-auto.mb-4
+          .bg-color-white.d-inline-block.px-2.py-1.mb-3
+            h5.text-center.mb-0 #[strong Persona]
+          p.text-center Las características individuales que influyen en el desarrollo.
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg-color-7.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema5/9.svg', alt='', style="max-width: 90px").mx-auto.mb-4
+          .bg-color-white.d-inline-block.px-2.py-1.mb-3
+            h5.text-center.mb-0 #[strong Contexto]
+          p.text-center El entorno ecológico en el que la persona se desenvuelve.
+      .col-lg-3.mb-4
+        .tarjeta--boton.bg-color-7.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema5/10.svg', alt='', style="max-width: 90px").mx-auto.mb-4
+          .bg-color-white.d-inline-block.px-2.py-1.mb-3
+            h5.text-center.mb-0 #[strong Tiempo]
+          p.text-center El desarrollo continuo a lo largo de la vida.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/5.png", style="max-width:100%", alt="").mx-auto
-      .col-lg-7
-        .bg-color-5.p-4.px-lg-5
+      .col-lg-6
+        .bg-color-9.p-4.px-lg-5
           p.mb-0(data-aos="fade-left")
-            | Existen estudios que han investigado la relación entre la autoeficacia y las conductas deportivas, obteniendo resultados mixtos. Algunos estudios muestran asociaciones positivas, mientras que otros presentan resultados contrarios. La mayoría de los estudios longitudinales han arrojado resultados positivos. Por lo tanto, la teoría de la autoeficacia es prometedora para su implementación en programas de ejercicio físico individualizado.
-
-    p.mb-5(data-aos="fade-left")
-      | Los factores clave según la teoría de la autoeficacia: 
-
-    
-    .bg-full-width.bg-fondo-2
-      .px-4.px-md-5
-        .row.mb-5
-          .col-lg-4.mb-4(data-aos="zoom-in-up")
-            .custom-image-card
-              img.custom-image-card__image(src="@/assets/curso/tema3/6.png" alt="")
-              .custom-image-card__text.p-4
-                p.mb-0.text-center Las actividades que las personas eligen realizar. 
-          .col-lg-4.mb-4(data-aos="zoom-in")
-            .custom-image-card
-              img.custom-image-card__image(src="@/assets/curso/tema3/7.png" alt="")
-              .custom-image-card__text.p-4
-                p.mb-0.text-center El esfuerzo que dedican para mantenerse en dichas actividades.
-          .col-lg-4.mb-4(data-aos="zoom-in-left")
-            .custom-image-card
-              img.custom-image-card__image(src="@/assets/curso/tema3/8.png" alt="")
-              .custom-image-card__text.p-4          
-                p.mb-0.text-center El grado de persistencia que demuestran para no fracasar.
-        br
+            | Este modelo ha sido ampliamente utilizado en las últimas décadas, especialmente en el ámbito de la salud pública y las ciencias del comportamiento, para subrayar la importancia de la interacción entre los individuos y sus entornos socioculturales. En este contexto, la salud no solo depende de acciones individuales, sino que también refleja los cambios estructurales y características del entorno que afectan el comportamiento y la adopción de estilos de vida saludable.
+      .col-lg-6
+        figure
+          img(src="@/assets/curso/tema5/11.png", style="max-width:100%", alt="").mx-auto
+          
 
 </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),

@@ -90,6 +90,12 @@
       background-image: url("../assets/curso/bullets/bg-icon-2.png") !important
       background-repeat: no-repeat
       background-position: right bottom
+  &-8
+    background-color: #97D8F6 !important
+  &-9
+    background-color: #F3F0EA !important
+  &-white
+    background-color: #fff !important
   &--fondo
     background-image: url("../assets/curso/bullets/bg-icon.png") !important
     background-repeat: no-repeat
@@ -103,6 +109,9 @@
     background-position: bottom
   &-2
     background-image: url("../assets/curso/bg/bg2.png") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/curso/bg/bg3.png") !important
     background-position: bottom
   &-slide
     background-image: url("../assets/curso/bg/bg-slider.png") !important
@@ -189,4 +198,47 @@ $custom-card-img-height: 249px
     color: #fff !important
 
 
+.acordion__accion__btn--a
+  background: $color-acento-botones
+  border: 0
+  color: #fff
 
+// Accordion Styles
+.acordion__activo
+  background: #D5EFFB !important
+
+
+.titulo-tres
+  position: relative
+  background: #F6D530
+  border-radius: 8px
+  display: inline-block
+  padding: 0.5rem 1.4rem 0.5rem 74px
+
+  h3, h4
+    margin: 0
+    line-height: 110% !important
+    @media screen and (max-width: $bp-max-sm)
+      font-size: 0.99rem
+
+  &::after
+    content: ''
+    position: absolute
+    bottom: -12px
+    left: 0
+    width: 100%
+    height: 56px
+    transform: translateX(8px)
+    background: url('../assets/curso/bullets/icon1.svg') transparent no-repeat bottom left
+
+.tarjeta--boton.bg-color-7:hover
+  background-color: #D5EFFB !important
+
+.linea-tiempo-e:before
+  left: 15% !important
+
+.linea-tiempo-e__item__header
+  width: 15% !important
+
+.linea-tiempo-e__item__body
+  width: 85% !important

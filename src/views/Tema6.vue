@@ -4,91 +4,168 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 Teoría de la autoeficacia 
+        span 6
+      h1 Recomendaciones de Actividad Física (AF) 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-auto
-        figure
-          img(src="@/assets/curso/tema3/1.svg", style="max-width:100%", alt="").mx-auto
-      .col-lg
-        p.mb-0(data-aos="fade-left")
-          | La teoría de la autoeficacia sostiene que la seguridad en la propia capacidad para llevar a cabo una conducta está directamente relacionada con el éxito en su ejecución. Las creencias en las propias habilidades influyen en cómo las personas piensan, sienten, se motivan y actúan.
+    p(data-aos="fade-left").mb-4 Antes de comenzar con las recomendaciones, es importante definir algunos términos clave relacionados con los niveles de actividad física recomendados:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 2.
-          span  Fuentes de la creencia en la autoeficacia
-        
-        .bg-color-sintesis.brounded
-          .p-md-5.p-4
-            figure
-              img(src="@/assets/curso/figuras/2.svg", style="max-width:100%", alt="El diagrama presenta las fuentes de creencia de la autoeficacia, como la experiencia previa y la evaluación emocional. Esto lleva a dos opciones: iniciar un programa de ejercicio, que fomenta la actividad y el control, resultando en éxito, o evitar el ejercicio por pereza, lo que conduce a la pasividad y, finalmente, al fracaso. ").mx-auto.d-none.d-md-block
-
-              img(src="@/assets/curso/figuras/2b.svg", style="max-width:100%", alt="El diagrama presenta las fuentes de creencia de la autoeficacia, como la experiencia previa y la evaluación emocional. Esto lleva a dos opciones: iniciar un programa de ejercicio, que fomenta la actividad y el control, resultando en éxito, o evitar el ejercicio por pereza, lo que conduce a la pasividad y, finalmente, al fracaso. ").mx-auto.d-md-none
+    .bg-full-width.bg-fondo-slide.mb-0
+      .p-4.p-md-5
+        .tarjeta.bg-color-white.p-4.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-up")
+          SlyderA(tipo='b')
+            .row.pt-lg-4
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                  h4 Tipo de actividad física 
+                  p.mt-4 Forma de participación en la actividad física, como aeróbica, o para mejorar la fuerza, flexibilidad o equilibrio. 
+              .col-lg-4
+                img(src='@/assets/curso/tema6/1.png', style="max-width: 412px").mx-auto
 
 
-    p.mb-5(data-aos="fade-left")
-      | Adoptar una actitud activa ayuda a mejorar la situación, establecer objetivos y mejorar la condición física. Por otro lado, la pasividad conduce a la inacción y a buscar excusas, como la falta de tiempo.
+            .row.pt-lg-4
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                  h4 Duración 
+                  p.mt-4 Tiempo dedicado a la actividad o ejercicio, generalmente expresado en minutos. 
+              .col-lg-4
+                img(src='@/assets/curso/tema6/2.png', style="max-width: 412px").mx-auto
 
 
-    .row.justify-content-center.align-items-start.mb-5
-      .col-lg-3
-        figure
-          img(src="@/assets/curso/tema3/2.png", style="max-width:100%", alt="").mx-auto
-      .col-lg-6
-        .bg-color-4.p-4.mb-4
-          p.mb-0(data-aos="fade-left")
-            | La autoeficacia se refiere a las creencias personales sobre la capacidad de afrontar las situaciones cotidianas, donde se actúa en función de esas creencias. Al adoptar la teoría de la autoeficacia, el individuo asume un rol de autorreferencia y se activa un mecanismo común mediante el cual las personas demuestran control sobre sus #[strong expectativas, motivaciones y comportamientos]. 
+            .row.pt-lg-4
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                 h4 Frecuencia  
+                 p.mt-4 Número de veces que se realiza una actividad, expresado en sesiones por semana. 
+              .col-lg-4
+                img(src='@/assets/curso/tema6/3.png', style="max-width: 412px").mx-auto
 
+
+            .row.pt-lg-4
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                  h4 Intensidad  
+                  p.mt-4 Grado de esfuerzo requerido para realizar una actividad, en términos de ritmo o nivel de esfuerzo. 
+              .col-lg-4
+                img(src='@/assets/curso/tema6/4.png', style="max-width: 412px").mx-auto
+
+            .row.pt-lg-4
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                  h4 Volumen 
+                  p.mt-4 Resultado total de la interacción entre intensidad, frecuencia, duración y permanencia del programa. 
+              .col-lg-4
+                img(src='@/assets/curso/tema6/5.png', style="max-width: 412px").mx-auto
+
+
+            .row.pt-lg-4
+              .col-lg-8.mb-4.mb-lg-0
+                .pe-4
+                  h4 Actividad física moderada  
+                  p.mt-4 En una escala absoluta, la intensidad es de 3,0 a 5,9 veces superior a la actividad en reposo. 
+              .col-lg-4
+                img(src='@/assets/curso/tema6/6.png', style="max-width: 412px").mx-auto
+
+
+            .row.pt-lg-4
+             .col-lg-8.mb-4.mb-lg-0
+               .pe-4
+                 h4 Actividad física vigorosa  
+                 p.mt-4 En una escala absoluta, la intensidad es de 6,0 veces o más superior a la actividad en reposo. 
+             .col-lg-4
+               img(src='@/assets/curso/tema6/7.png', style="max-width: 412px").mx-auto
+
+               
+            .row.pt-lg-4
+             .col-lg-8.mb-4.mb-lg-0
+               .pe-4
+                 h4 Actividad aeróbica  
+                 p.mt-4 Actividad de resistencia que mejora la función cardiorrespiratoria, como caminar, correr, nadar, etc. 
+             .col-lg-4
+               img(src='@/assets/curso/tema6/8.png', style="max-width: 412px").mx-auto
+
+    .bg-full-width.bg-fondo-3.mb-5
+      .p-4.p-md-5
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-auto
-            figure
-              img(src="@/assets/curso/tema3/3.svg", style="max-width:100%", alt="").mx-auto
-          .col-lg
-            p.mb-0(data-aos="fade-left") Es fundamental que los individuos sientan que tienen #[strong las capacidades físicas, mentales y personales] para realizar un cambio, lo cual conduce al éxito. Por el contrario, si piensan que no cumplen con los requisitos para efectuar ese cambio, experimentan #[strong frustración y descartan la posibilidad de actuar], lo que suele resultar en el fracaso.
-      .col-lg-3
-        figure
-          img(src="@/assets/curso/tema3/4.png", style="max-width:100%", alt="").mx-auto
+          .col-lg-11
+            LineaTiempoE.color-acento-contenido
+              .div(titulo="5 a 17 años" subtitulo="")
 
-    p.mb-5(data-aos="fade-left")
-      | Cuando las personas inician la acción para cambiar y empiezan a percibir resultados positivos, su autoeficacia aumenta, ya que el reto es consigo mismas. Esto les permite lograr éxitos que no pensaban que podían alcanzar, lo que las motiva a asumir retos más grandes y nuevos en su vida personal.
+                h5 Recomendaciones para niños y jóvenes
+                p.mt-4  A continuación se presentan las recomendaciones de actividad física:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/5.png", style="max-width:100%", alt="").mx-auto
-      .col-lg-7
-        .bg-color-5.p-4.px-lg-5
-          p.mb-0(data-aos="fade-left")
-            | Existen estudios que han investigado la relación entre la autoeficacia y las conductas deportivas, obteniendo resultados mixtos. Algunos estudios muestran asociaciones positivas, mientras que otros presentan resultados contrarios. La mayoría de los estudios longitudinales han arrojado resultados positivos. Por lo tanto, la teoría de la autoeficacia es prometedora para su implementación en programas de ejercicio físico individualizado.
+                .row.justify-content-center.align-items-start.mb-5
+                  .col-lg-auto
+                    figure
+                      img(src='@/assets/curso/tema6/9.png', style="max-width: 332px").mx-auto
+                  .col-lg
+                    .bg-color-4.p-4.brounded
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 Los niños y jóvenes deben acumular al menos #[strong 60 minutos diarios] de actividad física moderada o vigorosa.
 
-    p.mb-5(data-aos="fade-left")
-      | Los factores clave según la teoría de la autoeficacia: 
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 Superar los 60 minutos diarios de actividad física genera beneficios adicionales para la salud.
 
-    
-    .bg-full-width.bg-fondo-2
-      .px-4.px-md-5
-        .row.mb-5
-          .col-lg-4.mb-4(data-aos="zoom-in-up")
-            .custom-image-card
-              img.custom-image-card__image(src="@/assets/curso/tema3/6.png" alt="")
-              .custom-image-card__text.p-4
-                p.mb-0.text-center Las actividades que las personas eligen realizar. 
-          .col-lg-4.mb-4(data-aos="zoom-in")
-            .custom-image-card
-              img.custom-image-card__image(src="@/assets/curso/tema3/7.png" alt="")
-              .custom-image-card__text.p-4
-                p.mb-0.text-center El esfuerzo que dedican para mantenerse en dichas actividades.
-          .col-lg-4.mb-4(data-aos="zoom-in-left")
-            .custom-image-card
-              img.custom-image-card__image(src="@/assets/curso/tema3/8.png" alt="")
-              .custom-image-card__text.p-4          
-                p.mb-0.text-center El grado de persistencia que demuestran para no fracasar.
-        br
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 La mayor parte de la actividad física diaria debe ser aeróbica, incorporando actividades vigorosas al menos tres veces por semana para fortalecer músculos y huesos.
 
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 Para niños sedentarios o inactivos, es esencial comenzar con sesiones cortas, aumentando progresivamente la duración, frecuencia e intensidad.
+
+              .div(titulo="18 a 64 años" subtitulo="")
+
+                h5 Recomendaciones para adultos
+                p.mt-4  A continuación se presentan las recomendaciones de actividad física:
+
+                .row.justify-content-center.align-items-start.mb-5
+                  .col-lg-auto
+                    figure
+                      img(src='@/assets/curso/tema6/10.png', style="max-width: 332px").mx-auto
+                  .col-lg
+                    .bg-color-4.p-4.brounded
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 Los adultos deben acumular #[strong 150 minutos semanales] de actividad física aeróbica moderada, o #[strong 75 minutos] de actividad aeróbica vigorosa, o una combinación equivalente.
+
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 La actividad aeróbica debe realizarse en sesiones de al menos #[strong 10 minutos].
+
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 Se deben incluir actividades de fortalecimiento muscular dos o más veces por semana.
+
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 Para obtener mayores beneficios, es recomendable aumentar la actividad física a #[strong 300 minutos semanales] de actividad moderada, o #[strong 150 minutos]  de actividad vigorosa, o una combinación equivalente.
+
+
+              .div(titulo="65 años en adelante" subtitulo="")
+
+                h5 Recomendaciones para adultos
+                p.mt-4  A continuación se presentan las recomendaciones de actividad física:
+
+                .row.justify-content-center.align-items-start.mb-5
+                  .col-lg-auto
+                    figure
+                      img(src='@/assets/curso/tema6/11.png', style="max-width: 332px").mx-auto
+                  .col-lg
+                    .bg-color-4.p-4.brounded
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 Los adultos mayores deben acumular un mínimo de #[strong 150 minutos semanales] de actividad física moderada, o #[strong 75 minutos] de actividad vigorosa, distribuidos a lo largo de la semana.
+
+                      .bg-color-white.p-3.mb-3.brounded
+                        p.mb-0 Superar los #[strong 300 minutos semanales] proporciona beneficios adicionales para la salud.
+
+                      .bg-color-white.p-3.mb-4.brounded
+                        p.mb-0 Se recomienda realizar ejercicios de fortalecimiento muscular dos veces por semana y ejercicios de flexibilidad y equilibrio para reducir el riesgo de caídas.
+
+                      p.mb-0 Estas recomendaciones aplican a todos los adultos, excepto aquellos con condiciones médicas que requieran una evaluación previa a la actividad física.
+
+    .titulo-tres.mb-4(data-aos="flip-up").mb-5
+      h4 Recomendaciones de actividad física en el embarazo y postparto
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/tema6/12.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Antes de iniciar un programa de actividad física durante el embarazo, es fundamental que la mujer sea evaluada por su médico, debido a los cambios fisiológicos asociados con el embarazo y los posibles riesgos de la actividad física. Existen riesgos como un aporte inadecuado de oxígeno al feto, parto prematuro o un aumento en las contracciones uterinas. Sin embargo, muchos estudios indican que las mujeres activas y con embarazos sin complicaciones no necesitan limitar la actividad física, siempre que sigan las recomendaciones médicas y adapten sus actividades.
 </template>
 
 <script>
