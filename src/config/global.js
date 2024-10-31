@@ -119,31 +119,147 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Modelo transteórico',
+      referencia:
+        'Antena Lince UAdeO. (2024). Modelo Transteórico del Cambio | Entiende Tu Mente. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=OQ7MbfdNafc',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Teoría del comportamiento planificado',
+      referencia:
+        'Dr. Samuel Fernández. Escuela de Psicología. (2021). La teoría de la acción planificada con ejemplos. Azjen (1991). [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=MLqOhNFzPqQ',
+    },
+    {
+      tema: 'Teoría de la autoeficacia',
+      referencia:
+        'Bluecinante. (2023). ¿Qué es la AUTOEFICACIA?. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=XETTmLHShbg',
+    },
+    {
+      tema: 'Modelo ecológico',
+      referencia:
+        'Psicoactiva. (2021). La teoría ecológica de Bronfenbrenner sobre la educación de nuestros hijos. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=W55jkgUd_ns',
+    },
+    {
+      tema: 'Recomendaciones de Actividad Física (AF)',
+      referencia: 'OMS. (2024). Actividad física.',
+      tipo: 'Artículo',
+      link:
+        'https://www.who.int/es/news-room/fact-sheets/detail/physical-activity',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Actividad física moderada',
+      significado:
+        'actividad que implica un esfuerzo físico moderado, donde el ritmo cardíaco se acelera, como caminar rápido o nadar.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Actividad física',
+      significado:
+        'cualquier movimiento corporal producido por los músculos esqueléticos que requiere gasto de energía.',
+    },
+    {
+      termino: 'Autoeficacia',
+      significado:
+        'confianza de una persona en su capacidad para ejecutar comportamientos específicos de manera exitosa.',
+    },
+    {
+      termino: 'Enfermedades no transmisibles (ENT)',
+      significado:
+        'enfermedades crónicas como las cardiovasculares, respiratorias crónicas, diabetes y cáncer, que no se transmiten de persona a persona.',
+    },
+    {
+      termino: 'Estilos de vida saludable',
+      significado:
+        'conjunto de hábitos y comportamientos que promueven el bienestar físico, mental y social, como la alimentación equilibrada y la actividad física regular.',
+    },
+    {
+      termino: 'Modelo ecológico',
+      significado:
+        'teoría que analiza el comportamiento humano desde una perspectiva de interacciones entre el individuo y su entorno en múltiples niveles.',
+    },
+    {
+      termino: 'Modelo transteórico',
+      significado:
+        'teoría que explica el cambio de comportamiento a través de cinco etapas: precontemplación, contemplación, preparación, acción y mantenimiento.',
+    },
+    {
+      termino: 'Motivación extrínseca',
+      significado:
+        'impulso para realizar una acción motivado por recompensas o reconocimientos externos.',
+    },
+    {
+      termino: 'Motivación intrínseca',
+      significado:
+        'impulso para realizar una acción debido a la satisfacción interna que genera, sin necesidad de recompensas externas.',
+    },
+    {
+      termino: 'Teoría de la autoeficacia',
+      significado:
+        'teoría que sostiene que la creencia en la capacidad propia para realizar una tarea influye en la probabilidad de éxito al ejecutarla.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Anta, R. M. O., López-Sobaler, A. M., y Pérez-Farinós, N. (2013). Associated factors of obesity in Spanish representative samples. <em>Nutr Hosp, 28</em>(Supl|5), 56-62.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cabrera, G., Gómez, L., y Mateus, J. C. (2013). Actividad física y etapas de cambio comportamental en Bogotá.',
+      link: '',
+    },
+    {
+      referencia:
+        'Garber, C. E., Blissmer, B., Deschenes, M. R., Franklin, B. A., Lamonte, M. J., Lee, I. M., y Swain, D. P. (2011). American College of Sports Medicine position stand: Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults: Guidance for prescribing exercise. <em>Medicine and Science in Sports and Exercise, 43</em>(7), 1334-1359.',
+      link: '',
+    },
+    {
+      referencia:
+        'García, J. C. S., Rodríguez-Blanque, R., Villar, N. M., Sánchez-López, A. M., Hernández, M. C. L., y Aguilar-Cordero, M. J. (2016). Influencia del ejercicio físico sobre la calidad de vida durante el embarazo y el posparto: Revisión sistemática. <em>Nutrición Hospitalaria, 33</em>(5).',
+      link: '',
+    },
+    {
+      referencia:
+        'Gómez, J. C. (2016). Actividad física y factores de riesgo cardiovascular en niños y adolescentes. <em>VIREF Revista de Educación Física, 5</em>(1), 70-86.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kim, E. Y., Kim, S. Y., y Oh, D. W. (2012). Pelvic floor muscle exercises utilizing trunk stabilization for treating postpartum urinary incontinence: Randomized controlled pilot trial of supervised versus unsupervised training. <em>Clinical Rehabilitation, 26</em>(2), 132-141.',
+      link: '',
+    },
+    {
+      referencia:
+        'Nelson, M. E., Rejeski, W. J., Blair, S. N., Duncan, P. W., Judge, J. O., King, A. C., y Castaneda-Sceppa, C. (2007). Physical activity and public health in older adults: Recommendation from the American College of Sports Medicine and the American Heart Association. <em>Circulation, 116</em>(9), 1094-1105.',
+      link: '',
+    },
+    {
+      referencia:
+        'Romo-Pérez, V., García-Soidán, J. L., y Minguet, J. C. (2016). Circuitos biosaludables y cumplimiento de las recomendaciones sobre actividad física para mayores. <em>Revista Internacional de Medicina y Ciencias de la Actividad Física y del Deporte</em>, (47).',
+      link: '',
+    },
+    {
+      referencia:
+        'Salgado-Araujo, J. L. M. (1998). Revisión de la literatura actual sobre la continuidad del cambio de conducta en relación a la actividad física. <em>Apunts: Educación Física y Deportes, 4</em>(54), 66-77.',
+      link: '',
+    },
+    {
+      referencia:
+        'Seneviratne, S. N., Parry, G. K., McCowan, L. M., Ekeroma, A., Jiang, Y., Gusso, S., y Hofman, P. L. (2014). Antenatal exercise in overweight and obese women and its effects on offspring and maternal health: Design and rationale of the IMPROVE (Improving Maternal and Progeny Obesity Via Exercise) randomized controlled trial. <em>BMC Pregnancy and Childbirth, 14</em>(1), 1.',
+      link: '',
+    },
+    {
+      referencia:
+        'World Health Organization. (2010). <em>Recomendaciones mundiales sobre actividad física para la salud</em>.',
       link: '',
     },
   ],
@@ -167,8 +283,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Leidy del Pilar Aguirre Caicedo',
+          cargo: 'Experta temática',
+          centro: 'Centro de Comercio y Servicios - Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya ',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -177,18 +298,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortés',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -198,11 +314,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

@@ -5,8 +5,8 @@
     p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
 
     .row.justify-content-center
-      .col-lg-10.mb-5
-        figure
+      .col-lg-11.mb-5
+        figure.bg-color-sintesis.p-5.brounded
           img(src="@/assets/curso/sintesis.svg", alt="La síntesis resume las teorías de cambios comportamentales y recomendaciones en actividad física (AF) para prevenir ENT. Muestra los niveles de actividad física recomendados para niños, jóvenes, adultos y adultos mayores, y resalta la importancia de la actividad física para la salud pública. También incluye teorías de cambio, como el modelo transteórico, el modelo ecológico, y la teoría del comportamiento planificado.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
