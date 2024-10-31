@@ -211,7 +211,7 @@ $custom-card-img-height: 249px
 .titulo-tres
   position: relative
   background: #F6D530
-  border-radius: 8px
+  /* border-radius: 8px */
   display: inline-block
   padding: 0.5rem 1.4rem 0.5rem 74px
 
@@ -242,3 +242,20 @@ $custom-card-img-height: 249px
 
 .linea-tiempo-e__item__body
   width: 85% !important
+
+
+.custom-list
+  list-style-type: none
+  padding-left: 0
+  
+  li
+    position: relative
+    padding-left: 1.4rem
+    
+    &::before
+      content: url('../assets/curso/bullets/icon2.svg')
+      position: absolute
+      left: 0
+      top: 2%
+      width: 13px
+      height: 13px
