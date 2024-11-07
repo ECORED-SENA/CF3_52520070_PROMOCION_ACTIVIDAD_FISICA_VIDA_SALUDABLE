@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-auto
         figure
-          img(src="@/assets/curso/tema3/1.svg", style="max-width:100%", alt="").mx-auto
+          img(src="@/assets/curso/tema3/1.svg", style="max-width:100px", alt="").mx-auto
       .col-lg
         p.mb-0(data-aos="fade-left")
           | La teoría de la autoeficacia sostiene que la seguridad en la propia capacidad para llevar a cabo una conducta está directamente relacionada con el éxito en su ejecución. Las creencias en las propias habilidades influyen en cómo las personas piensan, sienten, se motivan y actúan.
@@ -25,9 +25,9 @@
         .bg-color-sintesis.brounded
           .p-md-5.p-4
             figure
-              img(src="@/assets/curso/figuras/2.svg", style="max-width:100%", alt="El diagrama presenta las fuentes de creencia de la autoeficacia, como la experiencia previa y la evaluación emocional. Esto lleva a dos opciones: iniciar un programa de ejercicio, que fomenta la actividad y el control, resultando en éxito, o evitar el ejercicio por pereza, lo que conduce a la pasividad y, finalmente, al fracaso. ").mx-auto.d-none.d-md-block
+              img(src="@/assets/curso/figuras/figura2.svg", style="max-width:100%", alt="El diagrama presenta las fuentes de creencia de la autoeficacia, como la experiencia previa y la evaluación emocional. Esto lleva a dos opciones: iniciar un programa de ejercicio, que fomenta la actividad y el control, resultando en éxito, o evitar el ejercicio por pereza, lo que conduce a la pasividad y, finalmente, al fracaso. ").mx-auto.d-none.d-md-block
 
-              img(src="@/assets/curso/figuras/2b.svg", style="max-width:100%", alt="El diagrama presenta las fuentes de creencia de la autoeficacia, como la experiencia previa y la evaluación emocional. Esto lleva a dos opciones: iniciar un programa de ejercicio, que fomenta la actividad y el control, resultando en éxito, o evitar el ejercicio por pereza, lo que conduce a la pasividad y, finalmente, al fracaso. ").mx-auto.d-md-none
+              img(src="@/assets/curso/figuras/figura2movil.svg", style="max-width:100%", alt="El diagrama presenta las fuentes de creencia de la autoeficacia, como la experiencia previa y la evaluación emocional. Esto lleva a dos opciones: iniciar un programa de ejercicio, que fomenta la actividad y el control, resultando en éxito, o evitar el ejercicio por pereza, lo que conduce a la pasividad y, finalmente, al fracaso. ").mx-auto.d-md-none
 
 
     p.mb-5(data-aos="fade-left")
@@ -46,7 +46,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-auto
             figure
-              img(src="@/assets/curso/tema3/3.svg", style="max-width:100%", alt="").mx-auto
+              img(src="@/assets/curso/tema3/3.svg", style="max-width:100%", alt="").mx-auto.d-none.d-md-block
           .col-lg
             p.mb-0(data-aos="fade-left") Es fundamental que los individuos sientan que tienen #[strong las capacidades físicas, mentales y personales] para realizar un cambio, lo cual conduce al éxito. Por el contrario, si piensan que no cumplen con los requisitos para efectuar ese cambio, experimentan #[strong frustración y descartan la posibilidad de actuar], lo que suele resultar en el fracaso.
       .col-lg-3

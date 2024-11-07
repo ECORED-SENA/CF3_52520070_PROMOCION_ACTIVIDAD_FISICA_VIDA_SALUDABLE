@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Promoción de la actividad física y estilos de vida saludable.',
+      'Promoción de la actividad física y estilos de vida saludable',
     descripcionCurso:
       'Este componente formativo aborda teorías de cambios comportamentales y recomendaciones sobre la actividad física para promover la salud. Explica modelos como el transteórico, la teoría de la autoeficacia, la motivación multidimensional, y el modelo ecológico. Ofrece pautas específicas para diferentes grupos etarios, personas con capacidades diferentes, y mujeres embarazadas, con el fin de prevenir enfermedades no transmisibles (ENT).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -123,7 +123,7 @@ export default {
       referencia:
         'Antena Lince UAdeO. (2024). Modelo Transteórico del Cambio | Entiende Tu Mente. [Archivo de video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=OQ7MbfdNafc',
+      link: 'https://www.youtube.com/watch?v=OO7MbfdNafc',
     },
     {
       tema: 'Teoría del comportamiento planificado',

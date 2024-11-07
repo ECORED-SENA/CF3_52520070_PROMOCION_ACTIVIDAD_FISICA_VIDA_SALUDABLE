@@ -40,7 +40,7 @@
                         figure
                           img(src="@/assets/curso/intro/3.png", alt="", style="max-width: 102px;").mx-auto.mb-4.mb-lg-0
                       .col-lg
-                        p.mb-0(data-aos="fade-left") Este componente formativo explora diversas teorías de cambios comportamental les que guían la adopción de estilos de vida activos y saludables. Entre ellas, se incluyen el modelo transteórico, la teoría del comportamiento planificado, la teoría de la autoeficacia y la motivación multidimensional. Estas teorías proporcionan un marco para entender cómo las personas adoptan, mantienen y consolidan conductas saludables, particularmente en lo que respecta a la actividad física en diferentes grupos poblacionales. 
+                        p.mb-0(data-aos="fade-left") Este componente formativo explora diversas teorías de cambios comportamentales que guían la adopción de estilos de vida activos y saludables. Entre ellas, se incluyen el modelo transteórico, la teoría del comportamiento planificado, la teoría de la autoeficacia y la motivación multidimensional. Estas teorías proporcionan un marco para entender cómo las personas adoptan, mantienen y consolidan conductas saludables, particularmente en lo que respecta a la actividad física en diferentes grupos poblacionales. 
                 .col-lg-auto.d-none.d-lg-block
                   figure
                     img(src="@/assets/curso/intro/4.png", alt="").mx-auto

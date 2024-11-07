@@ -11,7 +11,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-auto
         figure
-          img(src="@/assets/curso/tema5/1.svg", style="max-width:100%", alt="").mx-auto
+          img(src="@/assets/curso/tema5/1.svg", style="max-width:81px", alt="").mx-auto.mb-4.d-none.d-md-block.mb-lg-0
       .col-lg
         p.mb-0(data-aos="fade-left")
           | El desarrollo humano se plantea desde una perspectiva ecológica, donde el comportamiento humano es visto como un fenómeno influido por el entorno. Este modelo comprende el ambiente como un conjunto de niveles interconectados y organizados en serie, en los que cada nivel depende de los otros. Estos niveles se clasifican como:
@@ -19,39 +19,39 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema5/2.png", style="max-width:100%", alt="").mx-auto
+          img(src="@/assets/curso/tema5/2.png", style="max-width:100%", alt="").mx-auto.mb-4.mb-lg-0
       .col-lg-3
         .bg-color-8.mb-3
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-stretch.g-0
             .col-lg-auto
-              figure
-                img(src="@/assets/curso/tema5/3.svg", style="max-width:100%", alt="").mx-auto
-            .col-lg
-              p.mb-0(data-aos="fade-left") #[strong Microsistema]
+              .bg-color-4.h-100
+                img(src="@/assets/curso/tema5/3b.svg", style="max-width:120px", alt="").mx-auto
+            .col-lg.align-self-center.col-md-12
+              p.mb-0(data-aos="fade-left").ps-4 #[strong Microsistema]
 
-        .bg-color-8
-          .row.justify-content-center.align-items-center
+        .bg-color-8.mb-3
+          .row.justify-content-center.align-items-stretch.g-0
             .col-lg-auto
-              figure
-                img(src="@/assets/curso/tema5/5.svg", style="max-width:100%", alt="").mx-auto
-            .col-lg
-              p.mb-0(data-aos="fade-left") #[strong Exosistema]
+              .bg-color-4.h-100
+                img(src="@/assets/curso/tema5/5b.svg", style="max-width:120px", alt="").mx-auto
+            .col-lg.align-self-center
+              p.mb-0.ps-4(data-aos="fade-left") #[strong Exosistema]
       .col-lg-3
         .bg-color-8.mb-3
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-stretch.g-0
             .col-lg-auto
-              figure
-                img(src="@/assets/curso/tema5/4.svg", style="max-width:100%", alt="").mx-auto
-            .col-lg
-              p.mb-0(data-aos="fade-left") #[strong Mesosistema]
+              .bg-color-4.h-100
+                img(src="@/assets/curso/tema5/4b.svg", style="max-width:120px", alt="").mx-auto
+            .col-lg.align-self-center
+              p.mb-0.ps-4(data-aos="fade-left") #[strong Mesosistema]
 
-        .bg-color-8
-          .row.justify-content-center.align-items-center
+        .bg-color-8.mb-3
+          .row.justify-content-center.align-items-stretch.g-0
             .col-lg-auto
-              figure
-                img(src="@/assets/curso/tema5/6.svg", style="max-width:100%", alt="").mx-auto
-            .col-lg
-              p.mb-0(data-aos="fade-left") #[strong Macrosistema]
+              .bg-color-4.h-100
+                img(src="@/assets/curso/tema5/6b.svg", style="max-width:120px", alt="").mx-auto
+            .col-lg.align-self-center
+              p.mb-0.ps-4(data-aos="fade-left") #[strong Macrosistema]
 
     p.mb-5(data-aos="fade-left") La formación de un sistema depende de las interconexiones sociales entre los diferentes niveles. Todos están interrelacionados y dependen entre sí, lo que significa que el desarrollo humano está influido por la interacción conjunta de los distintos contextos y la comunicación entre ellos.
 

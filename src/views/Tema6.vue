@@ -137,7 +137,7 @@
 
               .div(titulo="65 años en adelante" subtitulo="")
 
-                h5 Recomendaciones para adultos
+                h5 Recomendaciones para adultos mayores
                 p.mt-4  A continuación se presentan las recomendaciones de actividad física:
 
                 .row.justify-content-center.align-items-start.mb-5
@@ -188,7 +188,7 @@
             p.mb-0 Es importante discutir con el médico tratante cómo ajustar las actividades durante las diferentes etapas del embarazo y el postparto.
 
 
-    p.mb-5(data-aos="fade-up") Es fundamental que las mujeres embarazadas y en postparto se realicen evaluaciones médicas previas a la actividad física, para evitar complicaciones y asegurar la seguridad durante el embarazo y el postparto.
+    p.mb-5(data-aos="fade-up") Se ha comprobado que los ejercicios dirigidos al fortalecimiento del suelo pélvico son eficaces para reducir la incontinencia urinaria en mujeres embarazadas. Además, la actividad física durante el embarazo puede prevenir complicaciones relacionadas con el sobrepeso y la obesidad.
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-7
@@ -204,7 +204,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema6/16.png", style="max-width:100%", alt="").mx-auto
+          img(src="@/assets/curso/tema6/16.png", style="max-width:100%", alt="").mx-auto.mb-4.mb-lg-0
       .col-lg-8
         p.mb-4(data-aos="fade-left") Durante el tercer trimestre, se deben evitar actividades de contacto, aquellas con riesgo de caídas y los ejercicios en posición supina, ya que pueden interferir con el retorno venoso y provocar hipotensión ortostática.
 

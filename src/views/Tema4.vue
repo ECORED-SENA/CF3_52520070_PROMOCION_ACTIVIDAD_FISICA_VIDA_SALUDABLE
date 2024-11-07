@@ -23,13 +23,13 @@
           | Numerosos estudios han establecido asociaciones entre la automotivación y la adherencia al ejercicio físico, aunque en algunos casos esta relación es débil. Los individuos necesitan un alto grado de motivación para adquirir habilidades específicas, como la resolución de problemas, el auto-refuerzo y la gestión del tiempo, que pueden facilitar la adherencia a un programa de ejercicio.
       .col-lg-3
         figure
-          img(src="@/assets/curso/tema4/3.png", style="max-width:100%", alt="").mx-auto
+          img(src="@/assets/curso/tema4/3.png", style="max-width:100%", alt="").mx-auto.mt-4.mt-lg-0
 
     .bg-color-7.bg-color-7--fondo.p-4.mb-5.brounded
       .row.justify-content-center.align-items-center
         .col-lg-auto
           figure
-            img(src="@/assets/curso/tema4/4.svg", style="max-width:100%", alt="").mx-auto
+            img(src="@/assets/curso/tema4/4.svg", style="max-width:100px", alt="").mx-auto
         .col-lg
           p.mb-0(data-aos="fade-left")
             | Aunque los niveles de automotivación suelen ser resistentes al cambio, una intervención específica en estas habilidades puede mejorar la automotivación, tanto para quienes desean comenzar un programa de ejercicio como para aquellos que ya lo practican.
@@ -58,10 +58,10 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-auto
+      .col-auto.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/bullets/icon-3.svg", style="max-width:100%", alt="").mx-auto
-      .col-lg
+          img(src="@/assets/curso/bullets/icon-3.svg", style="max-width:100px", alt="").mx-auto
+      .col
         p.mb-0(data-aos="fade-left")
           | El objetivo ideal es lograr una motivación intrínseca, ya que esta asegura la continuidad del comportamiento. Sin embargo, en algunos casos, la adquisición o abandono de ciertos hábitos implica un proceso continuo donde se separa la automotivación de la motivación extrínseca. Si se logran los procesos de cambio, es posible obtener una motivación intrínseca, lo que lleva a la adquisición de un comportamiento que genera cambios positivos en las personas.
 
@@ -69,7 +69,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3
         figure
-          img(src="@/assets/curso/tema4/6.png", style="max-width:100%", alt="").mx-auto
+          img(src="@/assets/curso/tema4/6.png", style="max-width:100%", alt="").mx-auto.mb-4.mb-lg-0
       .col-lg-9
         p.mb-4(data-aos="fade-left") Escala que subdivide la motivación extrínseca e intrínseca en etapas más específicas. A continuación, se presentan dichas etapas:
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-2")
@@ -82,7 +82,6 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
-        p.mb-4(data-aos="fade-left") Escala que subdivide la motivación extrínseca e intrínseca en etapas más específicas. A continuación, se presentan dichas etapas:
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-2")
           div(titulo="Regulación integrada")
             p.mb-0 Integra los valores, metas y necesidades personales en el comportamiento. 

@@ -26,7 +26,7 @@
 
       .col-lg-3
         figure
-          img(src="@/assets/curso/tema2/1.png", style="max-width:100%", alt="").mx-auto
+          img(src="@/assets/curso/tema2/1.png", style="max-width:100%", alt="").mx-auto.mb-4.mb-lg-0
 
     p.mb-5(data-aos="fade-left") Si una persona desea tomar decisiones más firmes y enfrentar menos obstáculos al establecer un patrón de comportamiento, debe tener mayor control sobre sí misma. La firmeza en las decisiones será clave para mantener y adoptar hábitos de ejercicio físico.
 
