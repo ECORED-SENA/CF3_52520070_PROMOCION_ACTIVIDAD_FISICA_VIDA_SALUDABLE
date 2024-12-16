@@ -39,7 +39,7 @@
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-8
-        TabsA.color-acento-botones
+        TabsC.color-acento-botones
           .tarjeta.bg-color-3.p-4.mb-4.brounded(titulo="A-motivación").h-100
             h5.mb-3 A-motivación
             p.mb-0(data-aos="fade-left")
@@ -52,7 +52,7 @@
             h5.mb-3 Motivación intrínseca 
             p.mb-0(data-aos="fade-left")
               | El cambio de comportamiento se produce por razones internas, sin la necesidad de estímulos externos, lo que asegura la permanencia del cambio. 
-      .col-lg-4
+      .col-lg-4.mt-4.mt-lg-0
         figure
           img(src="@/assets/curso/tema4/5.png", style="max-width:100%", alt="").mx-auto
 
